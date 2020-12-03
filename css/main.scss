@@ -1,3 +1,9 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
+
+
+.nav-item active:hover{
+
+    background-color: orange;
+}
 @import "../node_modules/bootstrap/scss/bootstrap";
