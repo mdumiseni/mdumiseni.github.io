@@ -11,6 +11,12 @@ $light :
 
 $primary : Orange;
 $secondary : white;
+
+html, body {
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
 body {
 
     background-image: url("../images/emile-perron-xrVDYZRGdw4-unsplash.jpg");
@@ -19,6 +25,8 @@ body {
     background-position: center center;
     background-size: cover;
 }
-
+#top-page {
+    
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap"; 
