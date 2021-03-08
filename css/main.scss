@@ -1,42 +1,68 @@
-// Custom.scss
-// Option A: Include all of Bootstrap
-
-/*
-$primary : rgb(78, 114, 223);
-$secondary :#fff;
-$accent: rgb(91, 153, 247);
-$body-bg : white;
-$light : 
-**/
-
-$primary : Orange;
-$secondary : white;
-
-html, body {
-    height:100%;
-    width:100%;
-    overflow:hidden;
-}
-body {
-
-    background-image: url("../images/emile-perron-xrVDYZRGdw4-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.intro-area {
-    padding-top: 10.5rem;
-    padding-bottom: 6rem;
-    text-align: center;
+header {
+    width: 40%;
+    margin: auto;
+    padding-top: 0%;
+    align-items: center;
+    height: 10vh;
+}
+
+body{
+
+    background: linear-gradient(120deg, #fdcd3b 70%, #ffed4b 60%);
+    height: 100%;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type:none;
+    justify-content: space-around;
+    padding-top: 5vh;
+    font-size: 18px;
+}
+
+.nav-link a {
+    font-size: 18px;
+    text-decoration: none;
     color: white;
+
+}
+
+main {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.main-area {
+    display: flex;
+    background: white;
+    min-height: 90vh;
+    width: 90%;
+    justify-items: center;
+    justify-content: space-around;
+    padding-top: 2vh;
+}
+
+.Profile {
+    flex: 1;
+    padding-left: 2vh;
+    margin-top: 1vh;
+    padding-bottom: 2vh;
+}
+.Profile-info {
+    flex: 2;
 }
 
 img {
-    max-width: 50%;
-    border-radius: 5rem 5rem;
-    max-height: 50%;
-    border-color: orange;
+    height: 90vh;
+    width: 80vh;
 }
-@import "../node_modules/bootstrap/scss/bootstrap"; 
